@@ -31,3 +31,18 @@ build/
 
 ### VS Code ###
 .vscode/
+
+# ===========================
+# Sensitive Config — IMPORTANT
+# ===========================
+src/main/resources/application.properties
+src/main/resources/application.yml
+src/main/resources/application-*.properties
+src/main/resources/application-*.yml
+
+# Environment Variables
+.env
+.env.*
+
+# Logs
+*.log
